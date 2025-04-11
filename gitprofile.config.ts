@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'Indiangrindelwald', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -12,7 +12,7 @@ const CONFIG = {
   base: '/gitprofile/',
   projects: {
     github: {
-      display: true, // Display GitHub projects?
+      display: false, // Display GitHub projects?
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
@@ -52,118 +52,175 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Ananthakrishnan V',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
-    facebook: '',
-    instagram: '',
-    reddit: '',
-    threads: '',
-    youtube: '', // example: 'pewdiepie'
-    udemy: '',
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
-    telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    linkedin: 'ananthakrishnan-v',
+    
+    
+   
+   
+    instagram: 'paaatukaaran',
+    
+    
+
+   
+  
+    phone: '+918547042102',
+    email: 'v_ananthakrishnan@ug.cusat.ac.in',
+
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1RuZm4unscw7nAJp5JnQ3LzRhT5zkHMpJ/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+  },
+  transcript: {
+    fileUrl:
+      ' https://drive.google.com/file/d/1lX94hBj2CdPVn_DXmwAqcdWHvBvU3sC5/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    "Zemax Opticstudio", "Inverse design",
+
+"Digital Image Correlation (DIC)",
+
+"Speckle Imaging",
+
+"Laser Laboratory Techniques",
+
+"Silvaco TCAD",
+
+"Altium",
+
+"KLayout",
+
+"Statistical process control (JMP)",
+
+"Lumerical (FDTD)",
+
+"COMSOL (FEM)",
+
+"Python",
+
+"MATLAB",
+
+"Simulink",
+
+"3D Printing/Modelling",
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: "Centre for Nano Science and Engineering (CeNSE), IISc Bangalore",
+      position: "Winter School 2024",
+      from: "December 2024",
+      to: "December 2024",
+      companyLink: "https://www.cense.iisc.ac.in",
+      description: "Explored semiconductor technology fundamentals, including wafer processing, device fabrication, and characterization. Gained hands-on experience with COMSOL, Altium, and JMP for simulations, PCB design, and process control. Conducted TCAD simulations for MOSFETs and CMOS integration, and studied photonics integration and MEMS packaging for next-gen devices."
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
-  ],
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
-  ],
-  educations: [
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      company: "CUSAT (Bachelor’s Thesis Project)",
+      position: "Research Student (Optics/Electronics)",
+      from: "January 2024",
+      to: "April 2024",
+      companyLink: "https://www.cusat.ac.in",
+      description: "Investigated non-invasive electric current measurement using laser speckle and Digital Image Correlation (DIC). Presented at OptoIn-24 International Conference. Skills: DIC, Speckle Imaging, Istra4D, LaTeX."
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
-  ],
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      company: "IEEE Workshop (CUSAT)",
+      position: "Project Trainee (MATLAB/Simulink)",
+      from: "November 2022",
+      to: "January 2023",
+      companyLink: "https://www.ieee.org",
+      description: "Simulated a solar array connected to power grids to study IV characteristics. Skills: MATLAB, Simulink."
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-  ],
-  // Display articles from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+      company: "CUSAT FABLAB - Technology Business Incubator",
+      position: "Summer Intern (Robotics/LIDAR)",
+      from: "Summer 2023",
+      to: "Summer 2023",
+      companyLink: "https://www.cusat.ac.in",
+      description: "Miniaturized a movable LIDAR system using STM32 and TOF sensors. Achieved a working range of 3 meters with high-quality point cloud data. Skills: Arduino, robotics, data processing."
+    }
+],
+certifications: [
+  {
+    name: "Materials Design for Electronic, Electromechanical and Optical Functions",
+    body: "Dr. Pavan Nukala, CeNSE, IISc (NPTEL)",
+    year: "2025",
+    link: "https://nptel.ac.in",
   },
+  {
+    name: "Hands-on COMSOL Multiphysics Training",
+    body: "CUSATECH Foundation",
+    year: "2024",
+    link: "https://www.comsol.com", // Replace with actual organizer link if available
+  },
+  {
+    name: "Optical Designing with Zemax",
+    body: "CADFEM India & IEEE Photonics Society, CUSAT",
+    year: "2024",
+    link: "https://www.zemax.com", // Replace with actual workshop link if available
+  },
+  {
+    name: "MATLAB/Simulink Onramp",
+    body: "MathWorks Learning Center",
+    year: "2023",
+    link: "https://matlabacademy.mathworks.com",
+  },
+  {
+    name: "Python Megacourse",
+    body: "Udemy",
+    year: "2022",
+    link: "https://www.udemy.com",
+  },
+ 
+  
+],
+educations: [
+  {
+    institution: "International School of Photonics, Cochin University of Science and Technology (CUSAT), Kochi",
+    degree: "Integrated MSc in Photonics",
+    from: "2021", // Assuming start year (adjust if needed)
+    to: "2026",
+    cgpa: "8.5/10",
+  },
+  {
+    institution: "PM Shri Kendriya Vidyalaya NAD Aluva (CBSE)",
+    degree: "XII (Senior Secondary)",
+    from: "2019",
+    to: "2020",
+    percentage: "92%", // Converted from 9.2/10 for clarity
+  },
+  {
+    institution: "PM Shri Kendriya Vidyalaya NAD Aluva (CBSE)",
+    degree: "X (Secondary)",
+    from: "2017",
+    to: "2018",
+    percentage: "91%", // Converted from 9.1/10
+  },
+],
+publications: [
+  {
+    title: "Application of Digital Laser Speckle Image Correlation (DiLSIC) for Studying Thermal Behaviour in a Wire",
+    conferenceName: "OptoIn-24 – International Conference on Advances in Optics and Photonics Instrumentation (by OSI)",
+    journalName: "Proceedings of OPTOIn-2024", // Leave empty if not published in a journal
+    authors: "Ananthakrishnan V, Vishwanath J R, Muhammad Rishad K P", // Add co-authors if any
+    link: "ISBN: 978-93-48843-25-8", // Add DOI or conference link if available
+    description: "Explored non-invasive measurement of electric current in PCBs using laser speckle and Digital Image Correlation (DIC). Demonstrated thermal expansion analysis of copper wires under low currents, with ongoing work to extend the method for PCB applications and mass testing of electrical circuits.",
+  },
+  // Add other publications if applicable
+],
+
+
+  // Display articles from your medium or dev account. (Optional)
+  //blog: {
+  //  source: 'dev', // medium | dev
+  //  username: 'arifszn', // to hide blog section, keep it empty
+  //  limit: 2, // How many articles to display. Max is 10.
+  //},
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: 'G-VTQP37P3VB', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
