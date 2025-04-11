@@ -223,10 +223,10 @@ publications: [
     id: 'G-VTQP37P3VB', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
-  hotjar: {
-    id: '',
-    snippetVersion: 6,
-  },
+  //hotjar: {
+  //  id: '',
+  //  snippetVersion: 6,
+  //},
   themeConfig: {
     defaultTheme: 'lofi',
 
@@ -291,11 +291,11 @@ publications: [
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  //footer: `Made with <a 
+  //    class="text-primary" href="https://github.com/arifszn/gitprofile"
+  //    target="_blank"
+  //    rel="noreferrer"
+  //  >GitProfile</a> and ❤️`,
 
   enablePWA: true,
 };
