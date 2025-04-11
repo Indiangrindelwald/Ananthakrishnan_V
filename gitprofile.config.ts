@@ -220,7 +220,7 @@ publications: [
   //  limit: 2, // How many articles to display. Max is 10.
   //},
   googleAnalytics: {
-    id: 'G-VTQP37P3VB', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: 'G-DZ1VTEE259 ', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   //hotjar: {
