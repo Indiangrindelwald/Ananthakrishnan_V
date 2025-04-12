@@ -81,7 +81,10 @@ const CONFIG = {
       ' https://drive.google.com/file/d/1lX94hBj2CdPVn_DXmwAqcdWHvBvU3sC5/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    "Zemax Opticstudio", "Inverse design",
+    "Ultrafast lasers and Optics", "Zemax Opticstudio","Lumerical (FDTD)",
+
+"COMSOL (FEM)",
+ "Inverse design",
 
 "Digital Image Correlation (DIC)",
 
@@ -96,10 +99,6 @@ const CONFIG = {
 "KLayout",
 
 "Statistical process control (JMP)",
-
-"Lumerical (FDTD)",
-
-"COMSOL (FEM)",
 
 "Python",
 
@@ -206,7 +205,7 @@ publications: [
     conferenceName: "OptoIn-24 – International Conference on Advances in Optics and Photonics Instrumentation (by OSI)",
     //journalName: "Proceedings of OPTOIn-2024", // Leave empty if not published in a journal
     authors: "Ananthakrishnan V, Vishwanath J R, Muhammad Rishad K P", // Add co-authors if any
-    link: "ISBN: 978-93-48843-25-8", // Add DOI or conference link if available
+    link: "https://csio.res.in/OPTOIN2024/e-Proceedings_OPTOIn-2024.pdf", // Add DOI or conference link if available
     description: "Explored non-invasive measurement of electric current in PCBs using laser speckle and Digital Image Correlation (DIC). Demonstrated thermal expansion analysis of copper wires under low currents, with ongoing work to extend the method for PCB applications and mass testing of electrical circuits.",
   },
   // Add other publications if applicable
@@ -220,19 +219,21 @@ publications: [
   //  limit: 2, // How many articles to display. Max is 10.
   //},
   googleAnalytics: {
-    id: 'G-DZ1VTEE259 ', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: 'G-DZ1VTEE259', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   //hotjar: {
   //  id: '',
   //  snippetVersion: 6,
   //},
+
+
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'pastel',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
