@@ -10,6 +10,7 @@ const CONFIG = {
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
   base: '/',
+  
   projects: {
     github: {
       display: false, // Display GitHub projects?
@@ -28,17 +29,19 @@ const CONFIG = {
         projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
+
+
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'VCSEL Optical analysis using FDTD',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            "This project analyzes a VCSEL designed using Lumerical's FDTD solver, simulating its electromagnetic performance through field distribution, Poynting vector, and far-field projections to optimize it for optical communication and sensing. The results demonstrate FDTD's effectiveness in modeling VCSEL structures for improved efficiency in photonic systems.",
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://www.mdpi.com/biosensors/biosensors-12-01098/article_deploy/html/images/biosensors-12-01098-g001.png',
+          link: 'https://drive.google.com/file/d/1kgqxZtD0e3oQpO3gWAc8xsF5Z_a_RvDs/view?usp=sharing',
         },
         {
           title: 'Project Name',
@@ -51,23 +54,18 @@ const CONFIG = {
       ],
     },
   },
+
+
   seo: {
     title: 'Portfolio of Ananthakrishnan V',
     description: '',
     imageURL: '',
-  },
+  },          
+
+
   social: {
     linkedin: 'ananthakrishnan-v',
-    
-    
-   
-   
     instagram: 'paaatukaaran',
-    
-    
-
-   
-  
     phone: '+918547042102',
     email: 'v_ananthakrishnan@ug.cusat.ac.in',
 
@@ -80,6 +78,8 @@ const CONFIG = {
     fileUrl:
       ' https://drive.google.com/file/d/1lX94hBj2CdPVn_DXmwAqcdWHvBvU3sC5/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
+
+
   skills: [
     "Ultrafast lasers and Optics", "Zemax Opticstudio","Lumerical (FDTD)",
 
@@ -108,6 +108,8 @@ const CONFIG = {
 
 "3D Printing/Modelling",
   ],
+
+
   experiences: [
     {
       company: "Centre for Nano Science and Engineering (CeNSE), IISc Bangalore",
@@ -142,6 +144,8 @@ const CONFIG = {
       description: "Miniaturized a movable LIDAR system using STM32 and TOF sensors. Achieved a working range of 3 meters with high-quality point cloud data. Skills: Arduino, robotics, data processing."
     }
 ],
+
+
 certifications: [
   {
     name: "Materials Design for Electronic, Electromechanical and Optical Functions",
@@ -176,6 +180,8 @@ certifications: [
  
   
 ],
+
+
 educations: [
   {
     institution: "International School of Photonics, Cochin University of Science and Technology (CUSAT), Kochi",
@@ -199,6 +205,10 @@ educations: [
     percentage: "91%", // Converted from 9.1/10
   },
 ],
+
+
+
+
 publications: [
   {
     title: "Application of Digital Laser Speckle Image Correlation (DiLSIC) for Studying Thermal Behaviour in a Wire",
@@ -218,6 +228,8 @@ publications: [
   //  username: 'arifszn', // to hide blog section, keep it empty
   //  limit: 2, // How many articles to display. Max is 10.
   //},
+
+  
   googleAnalytics: {
     id: 'G-DZ1VTEE259', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
