@@ -204,7 +204,7 @@ publications: [
   {
     title: "Application of Digital Laser Speckle Image Correlation (DiLSIC) for Studying Thermal Behaviour in a Wire",
     conferenceName: "OptoIn-24 – International Conference on Advances in Optics and Photonics Instrumentation (by OSI)",
-    journalName: "Proceedings of OPTOIn-2024", // Leave empty if not published in a journal
+    //journalName: "Proceedings of OPTOIn-2024", // Leave empty if not published in a journal
     authors: "Ananthakrishnan V, Vishwanath J R, Muhammad Rishad K P", // Add co-authors if any
     link: "ISBN: 978-93-48843-25-8", // Add DOI or conference link if available
     description: "Explored non-invasive measurement of electric current in PCBs using laser speckle and Digital Image Correlation (DIC). Demonstrated thermal expansion analysis of copper wires under low currents, with ongoing work to extend the method for PCB applications and mass testing of electrical circuits.",
