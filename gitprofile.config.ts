@@ -44,13 +44,48 @@ const CONFIG = {
           link: 'https://drive.google.com/file/d/1kgqxZtD0e3oQpO3gWAc8xsF5Z_a_RvDs/view?usp=sharing',
         },
         {
-          title: 'Project Name',
+          title: 'Electric Current Measurement via Laser Speckle (DILSIC)',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Exploring non-invasive electric current measurement in PCBs using Digital Image Correlation (DIC) and laser speckle imaging. Demonstrated thermal expansion correlation in copper wires under low currents, with ongoing work to extend the method for PCB mass testing. Presented at OptoIn-24 (OSI) and published in conference proceedings.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://405nm.com/wp-content/uploads/2023/01/Laser_speckle.webp', // Replace with experimental setup/speckle images
+          link: '', // Add publication link when available
+          skills: ['DIC', 'Speckle Imaging', 'Istra4D', 'LaTeX', 'Non-destructive Testing'],
         },
+        {
+          title: 'Mie Scattering Analysis in FDTD',
+          description:
+            'Investigated Mie scattering phenomena for spherical particles of varying sizes under broadband illumination using Finite-Difference Time-Domain (FDTD) simulations. Characterized scattering efficiency, angular distribution, and wavelength-dependent effects. Validated results against theoretical Mie solutions and explored potential applications in optical nanoantennas and related sensors.',
+          imageUrl:
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQICsui0byre5EbU8YHUllGOTB31jvqR9u6Zw&s', // Replace with actual simulation visuals/plots
+          link: '', // Optional
+        },
+        {
+          title: 'LiFi Audio Transmission System',
+          description:
+            'Designed and implemented a proof-of-concept LiFi system using an Arduino UNO, a laser diode, and a solar cell as the receiver. Transmitted audio signals (music from a smartphone) via amplitude-modulated laser light, decoded by the solar cell, and outputted to a speaker through the Arduino\'s analog input. Demonstrated real-time, wireless data transmission over visible light with minimal latency, highlighting the potential for low-cost, secure communication systems.',
+          imageUrl:
+            'https://www.oledcomm.net/wp-content/uploads/2024/11/What-is-Free-Space-Optical-Communication-scaled.jpg', // Replace with setup photos
+          link: 'https://github.com/yourusername/lifi-audio-arduino', // Optional
+        },
+        {
+          title: '3D LiDAR Prototype with STM32',
+          description:
+            'Developed a low-cost 3D LiDAR system using an STM32 microcontroller and ultrasonic tof sensor (TF Luna) for spatial mapping. Implemented real-time data acquisition, servo motor control for azimuth/elevation scanning, and point cloud generation via custom algorithms. Demonstrated applications in obstacle avoidance and small-scale environment reconstruction, achieving ±5 cm accuracy within a 3-meter range.',
+          imageUrl:
+            'https://www.geo.tuwien.ac.at/pg/pctools/publish/pointCloudThinOut/html/pointCloudThinOut_02.png', // Replace with setup photos/point cloud visuals
+          link: 'https://github.com/yourusername/stm32-3d-lidar', // Optional
+        },
+        {
+          title: 'Solar Power Grid Simulation (MATLAB/Simulink)',
+          description:
+            'Modeled a solar array integrated with power grids to analyze IV characteristics during an IEEE workshop. Gained insights into renewable energy systems and grid compatibility.',
+          imageUrl:
+            'https://www.energy.gov/sites/default/files/styles/full_article_width/public/2024-08/Crystalline-Silicon-Module.png?itok=MbcgoQm_', // Replace with simulation screenshots
+          link: '',
+          skills: ['MATLAB', 'Simulink', 'Renewable Energy Systems'],
+        },
+
       ],
     },
   },
