@@ -269,10 +269,10 @@ publications: [
     id: 'G-DZ1VTEE259', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
-  //hotjar: {
-  //  id: '',
-  //  snippetVersion: 6,
-  //},
+  hotjar: {
+    id: '6370123',
+    snippetVersion: 6,
+  },
 
 
   themeConfig: {
