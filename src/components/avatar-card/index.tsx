@@ -76,22 +76,37 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
               : profile.bio}
           </div>
         </div>
-        {resumeFileUrl &&
-          (loading ? (
-            <div className="mt-6">
-              {skeleton({ widthCls: 'w-40', heightCls: 'h-8' })}
-            </div>
-          ) : (
-            <a
-              href={resumeFileUrl}
-              target="_blank"
-              className="btn btn-outline btn-sm text-xs mt-6 opacity-50"
-              download
-              rel="noreferrer"
-            >
-              Download Resume
-            </a>
-          ))}
+        {resumeFileUrl && (
+          <div className="mt-6 flex gap-4">
+            {loading ? (
+              <>
+          {skeleton({ widthCls: 'w-40', heightCls: 'h-8' })}
+          {skeleton({ widthCls: 'w-40', heightCls: 'h-8' })}
+              </>
+            ) : (
+              <>
+          <a
+            href={resumeFileUrl}
+            target="_blank"
+            className="btn btn-outline btn-sm text-xs opacity-50"
+            download
+            rel="noreferrer"
+          >
+            Download Resume
+          </a>
+          <a
+            href={resumeFileUrl}
+            target="_blank"
+            className="btn btn-outline btn-sm text-xs opacity-50"
+            download
+            rel="noreferrer"
+          >
+            Download Transcript
+          </a>
+              </>
+            )}
+          </div>
+        )}
       </div>
     </div>
   );
